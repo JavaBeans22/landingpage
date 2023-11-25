@@ -1,0 +1,82 @@
+body {
+    font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img { 
+    width: auto;
+    height: 100px;
+}
+
+ul { 
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    color:black;
+    background-color:palevioletred;
+    display: flex;
+}
+
+.title{
+    font-weight: bolder;
+}
+
+
+.banner{
+    color: black;
+    background-color:papayawhip;
+    display: flex;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    color: black;
+    background-color:peachpuff;
+    display: flex;
+}
+
+.photos {
+    display: flex;
+}
+
+.qoute {
+    color: black;
+    background-color:peru;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.bluebanner {
+    color: black;
+    background-color:pink;
+    display: flex;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    color: black;
+    background-color:plum;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
